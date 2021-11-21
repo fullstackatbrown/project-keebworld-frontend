@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Keebworld frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To make changes to this repositor
 
-## Available Scripts
+Clone this repository using the terminal
 
-In the project directory, you can run:
+```
+git clone https://github.com/fullstackatbrown/project-keebworld-frontend.git
+```
+Move to directory
+```
+cd project-keebworld-frontend
+```
+Install dependencies
+```
+npm install
+```
+Run app in dev mode
+```
+npm start
+```
+
+## Available scripts
 
 ### `npm start`
 
