@@ -1,6 +1,6 @@
 # Keebworld frontend
 
-## To make changes to this repositor
+## To make changes to this repository
 
 Clone this repository using the terminal
 

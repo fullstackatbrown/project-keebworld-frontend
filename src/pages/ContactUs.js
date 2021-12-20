@@ -57,7 +57,7 @@ class ContactUs extends React.Component {
 
     render() {
         return (
-            <div class="my-5">
+            <div className="my-5">
                 <h2 id="h1-id">Contact Us</h2>
                 <br />
                 <div>
@@ -93,7 +93,7 @@ class ContactUs extends React.Component {
                             required value={this.state.message}
                             onChange= {this.onMsgChange.bind(this)}
                         />
-                        <div class="text-right">
+                        <div className="text-right">
                             <Button>Submit</Button>
                         </div>
                         </Form>

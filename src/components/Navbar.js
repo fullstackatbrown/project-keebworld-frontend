@@ -34,7 +34,7 @@ const Bar = (props) => {
     <BrowserRouter>
       <div>
         <Navbar color="FFFFFF" light expand="md">
-          <NavbarBrand><a href="/"><img className="photo" alt="logo" src={logo} /></a></NavbarBrand>
+          <a href="/"><img className="photo" alt="logo" src={logo} /></a>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
           
