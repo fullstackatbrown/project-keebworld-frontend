@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import { Navigation } from '../components/Navigation';
 
-function Home() {
-    return (
-        <div>
-        </div>
-    )
+export default function Home() {
+  return (
+    <div>
+      <Navigation/>
+    </div>
+    
+  );
 }
-
-export default Home;

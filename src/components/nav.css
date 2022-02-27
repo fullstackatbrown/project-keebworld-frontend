@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.photo {
+  width: 50%;
+}
+
 .navLink {
-    color: black !important;
-  }
+    color: #303030 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+  margin-top: 4px;
+  margin-left: 100px;
+}

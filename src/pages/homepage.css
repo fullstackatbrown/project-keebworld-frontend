@@ -1,0 +1,11 @@
+.notes {
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 60px;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+    padding: 30px;
+    border-radius: 20px;
+    filter: drop-shadow(1px 1px 1.5px black);
+}

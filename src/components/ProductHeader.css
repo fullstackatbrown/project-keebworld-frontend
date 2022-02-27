@@ -1,0 +1,25 @@
+.product {
+    background-color: #DADBDF;
+    height: 250px;
+}
+
+.productHeader {
+    margin-left: 105px;
+    /* margin-top: 80px; */
+}
+
+.addHeight {
+    height: 100px;
+}
+
+.title {
+    font-family: roc-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    height: 60px;
+    font-size: 3em;
+}
+
+.description {
+    width: 50%
+}

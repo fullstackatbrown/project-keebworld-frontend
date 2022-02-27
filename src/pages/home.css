@@ -1,0 +1,17 @@
+.heading-text {
+    font-size: 300%;
+    margin-top: 12%;
+    color: black;
+    width: 50%;
+    padding: 2;
+}
+
+.heading-btn {
+    font-size: 250%;
+    margin-top: 1%;
+    margin-left: 7%;
+    text-align: left;
+    color: rgba(9, 7, 7, 0.548);
+    width: 50%;
+    padding: 2;
+}
