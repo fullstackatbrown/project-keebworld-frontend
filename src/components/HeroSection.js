@@ -26,15 +26,15 @@ function HeroSection({
   imgStart,
 }) {
   return (
-    <div className="home__hero-section">
+    <div className="home_hero-section">
       {/* <div className={backgrd_color}> */}
       {/* <div className="container"> */}
       {/* <div className="row home__hero-row"> */}
-      <div className="home__hero-text-wrapper">
+      <div className="home_hero-text-wrapper">
         <h1 className={lightText ? "heading" : "heading dark"}>{headline}</h1>
         <p
           className={
-            lightTextDesc ? "home__hero-subtitle" : "home__hero-subtitle dark"
+            lightTextDesc ? "home_hero-subtitle" : "home_hero-subtitle dark"
           }
         >
           {description}
@@ -47,11 +47,17 @@ function HeroSection({
                   </Link> */}
       </div>
 
-      <div className="col">
-        <div className="home__hero-img-wraooer">
-          <img src={img} alt={alt} className="home__hero-img" />
+      {/* <div className="col">
+        <div className="home_hero-img-wrapper">
+          <img src={img} alt={alt} className="home_hero-img" />
         </div>
-      </div>
+      </div> */}
+      {/* <div className="col">
+        <img src={img} alt={alt} className="home_hero-img" />
+      </div> */}
+
+      <img src={img} alt={alt} className="home_hero-img" />
+
       {/* </div> */}
       {/* </div> */}
       {/* </div> */}

@@ -2,8 +2,8 @@ import top from "../photos/home-page/top.png";
 
 export const homeObjOne = {
   lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "",
   headline: "Explore the mechanical keyboard marketplace.",
   description:

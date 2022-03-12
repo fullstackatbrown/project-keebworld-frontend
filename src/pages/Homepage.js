@@ -7,6 +7,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection {...homeObjOne} />
+      {/* <div className= "multicolor"></div> */}
     </>
     // <div className="notes">
     //     <p>Notes 2/26:</p>
