@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .container {
   display: flex;
@@ -10,11 +10,12 @@
 }
 
 .navLink {
-    color: #303030 !important;
-    font-family: 'Poppins', sans-serif;
+  color: #303030 !important;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav {
   margin-top: 4px;
   margin-left: 100px;
+  
 }
