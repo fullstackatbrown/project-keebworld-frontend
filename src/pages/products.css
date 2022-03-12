@@ -5,3 +5,16 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (min-width: 1024px) {
+        flex-wrap: nowrap;
+    }
+}
+
+.addHeight {
+    height: 100px;
+}

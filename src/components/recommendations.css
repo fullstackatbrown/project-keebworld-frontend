@@ -1,0 +1,24 @@
+.recommendations {
+    background-color: white;
+}
+
+.recs-header {
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (min-width: 1024px) {
+        flex-wrap: nowrap;
+    }
+}
+
+.recommendations > hr {
+    width: 90%;
+    margin-left: 6%;
+}

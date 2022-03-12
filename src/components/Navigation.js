@@ -15,6 +15,8 @@ import ContactUs from "../pages/ContactUs";
 import FAQ from "../pages/FAQ";
 import Homepage from "../pages/Homepage";
 import Stabilizers from "../pages/Stabilizers";
+import SingleProduct from "../pages/SingleProduct";
+import Cookies from 'universal-cookie';
 import {
   Routes,
   Route
@@ -24,8 +26,8 @@ import logo from "../photos/keebworld.png"
 import search from "../photos/search.png"
 
 export const Navigation = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+  const cookies = new Cookies();
+  const [isOpen, setIsOpen] = useState(false);  
   const toggle = () => setIsOpen(!isOpen);
 
   return (
@@ -69,7 +71,11 @@ export const Navigation = (props) => {
           <Route path="/" element={<Homepage />} />
           <Route path="/contactus/" element={<ContactUs />} />
           <Route path="/faq/" element={<FAQ />} />
-          <Route path="/stabilizers/" element={<Stabilizers />} />          
+          <Route path="/stabilizers/" element={<Stabilizers />} />   
+          <Route exact path="/product/:prodId" element={
+            <SingleProduct productId={cookies.get("prodId")}></SingleProduct>
+          }>
+          </Route>    
         </Routes>
       </div>
   );
