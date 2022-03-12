@@ -27,9 +27,6 @@ function HeroSection({
 }) {
   return (
     <div className="home_hero-section">
-      {/* <div className={backgrd_color}> */}
-      {/* <div className="container"> */}
-      {/* <div className="row home__hero-row"> */}
       <div className="home_hero-text-wrapper">
         <h1 className={lightText ? "heading" : "heading dark"}>{headline}</h1>
         <p
@@ -42,25 +39,9 @@ function HeroSection({
         <NavLink className="navLink" href="/builder/">
           <Button variant="contained">{buttonLabel}</Button>
         </NavLink>
-        {/* <Link to="/sign-up">
-                    <Button variant="contained">{buttonLabel}</Button>
-                  </Link> */}
       </div>
 
-      {/* <div className="col">
-        <div className="home_hero-img-wrapper">
-          <img src={img} alt={alt} className="home_hero-img" />
-        </div>
-      </div> */}
-      {/* <div className="col">
-        <img src={img} alt={alt} className="home_hero-img" />
-      </div> */}
-
       <img src={img} alt={alt} className="home_hero-img" />
-
-      {/* </div> */}
-      {/* </div> */}
-      {/* </div> */}
     </div>
   );
 }

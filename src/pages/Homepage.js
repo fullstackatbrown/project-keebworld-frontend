@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
+import HomeSub2 from "../components/HomeSub2";
 import { homeObjOne } from "./data";
 import "./homepage.css";
 
@@ -7,7 +8,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection {...homeObjOne} />
-      <div className="multicolor">stuff</div>
+      <HomeSub2 className="multicolor" />
     </>
     // <div className="notes">
     //     <p>Notes 2/26:</p>

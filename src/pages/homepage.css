@@ -10,6 +10,3 @@
   filter: drop-shadow(1px 1px 1.5px black);
 }
 
-.multicolor {
-  background: linear-gradient(to right, #99ccff 0%, #ffccff 100%);
-}
