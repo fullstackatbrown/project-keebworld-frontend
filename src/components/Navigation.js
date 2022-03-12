@@ -66,7 +66,7 @@ export const Navigation = (props) => {
           </Collapse>
         </Navbar>
         <Routes>
-          <Route path="/home/" element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/contactus/" element={<ContactUs />} />
           <Route path="/faq/" element={<FAQ />} />
           <Route path="/stabilizers/" element={<Stabilizers />} />          
