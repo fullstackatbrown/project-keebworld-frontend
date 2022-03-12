@@ -13,3 +13,9 @@ export const homeObjOne = {
   img: top,
   alt: "front illustration",
 };
+
+export const homeObjThree = {
+  headline: "New? Here’s how we work",
+  description:
+    "Building your first mechanical keyboard can be a daunting task. KeebWorld has a variety of features that makes the search for mechanical keyboard parts simpler than ever before.",
+};

@@ -28,9 +28,12 @@ function HomeSub3({ headline, description }) {
   };
   return (
     <div>
-      <div className="text-wrapper">
-        <h1>{headline}</h1>
-        <p className="subtitle">{description}</p>
+      <div className="sub3_section">
+        <div className="text-wrapper">
+          <h1>{headline}</h1>
+          <p className="subtitle">{description}</p>
+        </div>
+
         <div className="card-container">
           <HomeCard {...cardBrowse}></HomeCard>
           <HomeCard {...cardOrganized}></HomeCard>
