@@ -1,7 +1,7 @@
 .home_hero-section {
   /* color: #fff; */
-  margin-top: 10px;
-  margin-left: 6%;
+  margin-top: 20px;
+  margin-left: 8%;
   margin-right: 10%;
 
   display: grid;
@@ -23,7 +23,7 @@
   max-width: 300px;
   padding-top: 0;
   padding-bottom: 60px;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .row {
   margin: -15px;
