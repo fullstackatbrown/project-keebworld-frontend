@@ -12,7 +12,6 @@ export const ProductHeader = (props) => {
     <div className="productHeader">
         <div className="addHeight"/>
         <h1 className="title">{props.productName}</h1>
-        {/* <p>{props.productDescription}</p> */}
         <p className="description">{lorem}</p>
     </div>
   )
