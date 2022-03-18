@@ -14,7 +14,7 @@ function HomeCard({ img, title, description }) {
         </div>
       </div> */}
       <div className="card">
-        <img src={img} alt="icon"></img>
+        <img src={img} alt="icon" class="home-card-img"></img>
         <div class="container">
           <h3>{title}</h3>
           <p>{description}</p>
