@@ -7,10 +7,8 @@ import {
   NavbarToggler,
   Nav,
   NavItem,
-  NavLink,
-  ButtonDropdown
+  NavLink
 } from 'reactstrap';
-import Home from "../pages/Home";
 import ContactUs from "../pages/ContactUs";
 import FAQ from "../pages/FAQ";
 import Homepage from "../pages/Homepage";
@@ -25,15 +23,17 @@ import {
 import logo from "../photos/keebworld.png"
 import search from "../photos/search.png"
 
+
 export const Navigation = (props) => {
   const cookies = new Cookies();
   const [isOpen, setIsOpen] = useState(false);  
   const toggle = () => setIsOpen(!isOpen);
+  const menuClass = `dropdown-menu${isOpen ? " show" : ""}`;
 
   return (
       <div>
         <Navbar color="FFFFFF" light expand="md" className="nav">
-          <a href="/home"><img className="photo" alt="logo" src={logo} /></a>
+          <a href="/"><img className="photo" alt="logo" src={logo} /></a>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
           
@@ -49,9 +49,31 @@ export const Navigation = (props) => {
               </NavLink>
             </NavItem>
             <NavItem className="navItem">
-              <NavLink className="navLink" href="/stabilizers/">
-                Products
-              </NavLink>
+              <div className="dropdown" onClick={toggle}>
+                <button
+                  className="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                >
+                  Products
+                </button>
+                <div className={menuClass} aria-labelledby="dropdownMenuButton">
+                  <a className="dropdown-item" href="/switches">
+                    Switches
+                  </a>
+                  <a className="dropdown-item" href="/keycaps">
+                    Keycaps
+                  </a>
+                  <a className="dropdown-item" href="/stabilizers">
+                    Stabilizers
+                  </a>
+                  <a className="dropdown-item" href="/lube">
+                    Lube
+                  </a>
+                </div>
+              </div>
             </NavItem>
             <NavItem className="navItem">
               <NavLink className="navLink" href="/contactus/">
