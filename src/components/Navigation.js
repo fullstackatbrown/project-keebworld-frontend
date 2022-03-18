@@ -12,7 +12,7 @@ import {
 import ContactUs from "../pages/ContactUs";
 import FAQ from "../pages/FAQ";
 import Homepage from "../pages/Homepage";
-import Stabilizers from "../pages/Stabilizers";
+import Products from "../pages/Products";
 import SingleProduct from "../pages/SingleProduct";
 import Cookies from 'universal-cookie';
 import {
@@ -69,8 +69,11 @@ export const Navigation = (props) => {
                   <a className="dropdown-item" href="/stabilizers">
                     Stabilizers
                   </a>
-                  <a className="dropdown-item" href="/lube">
-                    Lube
+                  <a className="dropdown-item" href="/lubricants">
+                    Lubricants
+                  </a>
+                  <a className="dropdown-item" href="/pcbs">
+                    PCBs
                   </a>
                 </div>
               </div>
@@ -93,7 +96,11 @@ export const Navigation = (props) => {
           <Route path="/" element={<Homepage />} />
           <Route path="/contactus/" element={<ContactUs />} />
           <Route path="/faq/" element={<FAQ />} />
-          <Route path="/stabilizers/" element={<Stabilizers />} />   
+          <Route path="/switches/" element={<Products prodName="SWITCHES" prodCount="8" prodDescription="Lorem ipsum" prodData={props.switchData}/>} />
+          <Route path="/keycaps/" element={<Products prodName="KEYCAPS" prodCount="8" prodDescription="Lorem ipsum" prodData={props.keycapData}/>} />
+          <Route path="/stabilizers/" element={<Products prodName="STABILIZERS" prodCount="8" prodDescription="Lorem ipsum" prodData={props.stabilizerData}/>} />
+          <Route path="/lubricants/" element={<Products prodName="LUBRICANTS" prodCount="8" prodDescription="Lorem ipsum" prodData={props.lubricantData}/>} />
+          <Route path="/pcbs/" element={<Products prodName="PCBS" prodCount="8" prodDescription="Lorem ipsum" prodData={props.pcbData}/>} />
           <Route exact path="/product/:prodId" element={
             <SingleProduct productId={cookies.get("prodId")}></SingleProduct>
           }>
