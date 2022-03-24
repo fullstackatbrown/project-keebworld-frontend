@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import HomeSub2 from "../components/HomeSub2";
 import HomeSub3 from "../components/HomeSub3";
+
 import { homeObjOne, homeObjThree } from "./data";
 import "./homepage.css";
 
@@ -11,6 +12,7 @@ export default function HomePage() {
       <HeroSection {...homeObjOne} />
       <HomeSub2 className="multicolor" />
       <HomeSub3 {...homeObjThree} />
+
     </>
     // <div className="notes">
     //     <p>Notes 2/26:</p>
