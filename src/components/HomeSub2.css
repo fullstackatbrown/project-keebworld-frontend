@@ -44,28 +44,27 @@
   text-align: center;
   padding: 5px 0;
   font-size: 30px;
-
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
 }
 
-.grid-container-2 .item1 {
+/* .grid-container-2 .item1 {
   grid-column-start: 1;
   grid-column-end: 2;
-}
+} */
 
 .item1 > img {
   width: 100%;
 }
 
-.grid-container-2 .item2 {
+/* .grid-container-2 .item2 {
   grid-column-start: 2;
   grid-column-end: 3;
-}
+} */
 
 .item2 > img {
+  width: 100%;
+}
+
+.item3 > img {
   width: 100%;
 }
 /* .item3 {

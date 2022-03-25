@@ -1,5 +1,7 @@
 import React from "react";
 import switches from "../photos/home-page/switches.png";
+import keycaps from "../photos/home-page/Keycaps.png";
+import stabilizers from "../photos/home-page/stabilizers.png";
 import "./HomeSub2.css";
 
 function HomeSub2() {
@@ -11,18 +13,18 @@ function HomeSub2() {
             <img src={switches} alt="switches"></img>
           </div>
           <div class="item2">
-            <img src={switches} alt="icon"></img>
+            <img src={keycaps} alt="icon"></img>
           </div>
         </div>
         <div class="grid-container-3">
           <div class="item1">
-            1{/* <img src={switches} alt="icon"></img> */}
+            <img src={stabilizers} alt="icon"></img>
           </div>
           <div class="item2">
-            2{/* <img src={switches} alt="icon"></img> */}
+            <img src={stabilizers} alt="icon"></img>
           </div>
           <div class="item3">
-            3{/* <img src={switches} alt="icon"></img> */}
+            <img src={stabilizers} alt="icon"></img>
           </div>
         </div>
       </div>

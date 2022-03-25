@@ -1,16 +1,8 @@
 .home_hero-section {
-  /* color: #fff; */
-  margin-top: 20px;
-  margin-left: 8%;
-  margin-right: 10%;
-
   display: grid;
-  grid-template-columns: 60% 40%;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
-  /* margin-left: auto;
-  align-items: center; */
+  /* grid-template-columns: 60% 40%; */
+  grid-template-columns: auto auto;
+  padding: 5% 10%;
 }
 
 .home_hero-row {
@@ -63,7 +55,7 @@
 
 .home_hero-img {
   max-width: 100%;
-  height: 100%;
+  height: auto;
   padding-right: 0;
   margin: 0 0 0 10px;
   display: inline-block;

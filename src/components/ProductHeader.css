@@ -1,25 +1,25 @@
 .product {
-    background-color: #DADBDF;
-    height: 250px;
+  background-color: #dadbdf;
+  height: 250px;
 }
 
 .productHeader {
-    margin-left: 105px;
-    /* margin-top: 80px; */
+  margin-left: 105px;
+  /* margin-top: 80px; */
 }
 
 .addHeight {
-    height: 100px;
+  height: 100px;
 }
 
 .title {
-    font-family: roc-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    height: 60px;
-    font-size: 3em;
+  font-family: roc-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  height: 60px;
+  font-size: 3em;
 }
 
 .description {
-    width: 50%
+  width: 50%;
 }
