@@ -9,6 +9,21 @@
   /* padding-right: 50%; */
   display: grid;
   grid-template-rows: auto auto;
+  text-align: center;
+}
+
+.grid-container-5 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  align-content: center;
+  /* background-color: #2196f3; */
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-right: 5px;
+  width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .grid-container-2 {
   display: grid;
@@ -71,3 +86,7 @@
   grid-column-start: 2;
   grid-column-end: 3;
 } */
+
+.logo > img {
+  width: 75%;
+}
