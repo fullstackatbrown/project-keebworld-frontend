@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeCard.css";
+import tempImage from "./cherry-stabilizer.png";
 
 function HomeCard({ img, title, description }) {
   return (
