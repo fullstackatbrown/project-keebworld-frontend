@@ -48,8 +48,6 @@
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: 5px;
-  /* background-color: #2196f3; */
-  padding: 1px;
   grid-row-start: 2;
   grid-row-end: 3;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import switches from "../photos/home-page/switches.png";
+import pcb from "../photos/home-page/PCBs.png";
+import lub from "../photos/home-page/lubricants.svg";
 import keycaps from "../photos/home-page/Keycaps.png";
 import stabilizers from "../photos/home-page/stabilizers.png";
 import AliExpress from "../photos/home-page/Logos/AliExpress.svg";
