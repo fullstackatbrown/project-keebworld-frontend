@@ -13,7 +13,7 @@ export default function HomePage() {
       <HeroSection {...homeObjOne} />
       <HomeSub2 className="multicolor" />
       <HomeSub3 {...homeObjThree} />
-      <img src={tempFooterImage} alt="Footer" />
+      <img className="footer" src={tempFooterImage} alt="Footer" />
     </>
     // <div className="notes">
     //     <p>Notes 2/26:</p>
