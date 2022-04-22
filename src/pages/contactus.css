@@ -1,0 +1,15 @@
+.contact {
+    margin-left: 40px;
+}
+
+.blue-submit-btn {
+    background-color: #407BFF !important;
+    border: none !important;
+    width: 30vw !important;
+}
+
+.input-div {
+    align-items: left !important;
+    margin-top: 10px;
+    width: 40vw;
+}

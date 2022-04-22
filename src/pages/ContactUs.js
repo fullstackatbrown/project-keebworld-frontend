@@ -8,6 +8,7 @@ import {
     Form,
     Input
   } from 'reactstrap';
+import './contactus.css'
 
 class ContactUs extends React.Component {
 
@@ -57,7 +58,7 @@ class ContactUs extends React.Component {
 
     render() {
         return (
-            <div className="my-5">
+            <div className="my-5 contact">
                 <h2 id="h1-id">Contact Us</h2>
                 <br />
                 <div>
@@ -66,14 +67,22 @@ class ContactUs extends React.Component {
                     <br/><br />
                     Shoot us an email or reach out for an interview, we would love to talk!
                 </div>
-                <Container>
-                    <Row className="justify-content-md-center">
+                <div className="input-div">
+                    <Row>
                     <Col md="9">
                         <Form id="contact-form" onSubmit={this.submitEmail.bind(this)} 
                                     method="POST">
                         <Input 
+                            type="name" 
+                            placeholder="Name" 
+                            className="my-2" 
+                            aria-describedby="emailHelp"
+                            required value={this.state.name} onChange=
+                            {this.onNameChange.bind(this)}
+                        />
+                        <Input 
                             type="email" 
-                            placeholder="Email:" 
+                            placeholder="Email" 
                             className="my-2" 
                             aria-describedby="emailHelp"
                             required value={this.state.email} onChange=
@@ -81,25 +90,25 @@ class ContactUs extends React.Component {
                         />
                         <Input 
                             type="text" 
-                            placeholder="Subject:" 
+                            placeholder="Subject" 
                             className="my-2"
                             required value={this.state.subject}
                             onChange={this.onSubjectChange.bind(this)}
                         />
                         <Input 
                             type="textarea" 
-                            placeholder="Message:" 
+                            placeholder="Message" 
                             className="my-2"
                             required value={this.state.message}
                             onChange= {this.onMsgChange.bind(this)}
                         />
-                        <div className="text-right">
-                            <Button>Submit</Button>
+                        <div>
+                            <Button className="blue-submit-btn">Submit</Button>
                         </div>
                         </Form>
                     </Col>
                     </Row>
-                </Container>
+                </div>
             </div>
         )
     }
